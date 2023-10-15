@@ -1,0 +1,19 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+../Core/Inc/user_led.hpp:15:6:void enable_user_led()	4	static
+../Core/Inc/user_led.hpp:30:6:void set_gpio_pin(uint8_t)	16	static
+../Core/Inc/user_led.hpp:38:6:void reset_gpio_pin(uint8_t)	16	static
+../Core/Inc/user_led.hpp:44:6:void switch_led(uint8_t, bool)	16	static
+../Core/Inc/user_led.hpp:63:5:BlinkyLED::BlinkyLED(uint8_t, uint8_t)	16	static
+../Core/Inc/user_led.hpp:66:25:bool BlinkyLED::tick()	16	static
+../Core/Inc/user_led.hpp:80:10:void BlinkyLED::switch_leds()	24	static
+../Core/Inc/user_button.hpp:12:6:void enable_user_button()	8	static,ignoring_inline_asm
+../Core/Inc/interrupt_timer.hpp:11:6:void enable_interrupt_timer2()	8	static
+../Core/Inc/interrupt_timer.hpp:31:6:void enable_timer2()	4	static
+../Core/Inc/interrupt_timer.hpp:36:6:void disable_timer2()	4	static
+../Core/Src/main.cpp:11:5:int main()	8	static
+../Core/Src/main.cpp:26:6:void enable_ahb_clock()	4	static
+../Core/Src/main.cpp:38:6:void EXTI0_IRQHandler()	8	static
+../Core/Src/main.cpp:52:6:void TIM2_IRQHandler()	8	static
+../Core/Src/main.cpp:65:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../Core/Src/main.cpp:65:1:cpp)	8	static
